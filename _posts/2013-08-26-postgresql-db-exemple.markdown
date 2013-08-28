@@ -35,7 +35,7 @@ Vous obtiendrez le fichier "dvdrental.tar".
 
 Assurez vous d'avoir un utilisateur avec le nom "postgres" déclaré dans PostgreSQL.
 Si ce n'est pas le cas il faudra le créer sinon la restauration échouera 
-(cette d'archive fait référence à l'utilisateur "postgres"):
+(cette archive fait référence à l'utilisateur "postgres"):
 
 + Connectez-vous à PostgreSQL avec la commande `psql`
 + Dans la console `psql` tapez la commande suivante:  
