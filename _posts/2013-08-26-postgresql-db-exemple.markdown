@@ -57,7 +57,7 @@ avec:
 `psql -U postgres -d dvdrental`  
 Dans la console psql, tapez:  
 `select * from actor;` par exemple pour afficher la liste des acteurs.
-On peut maintenant s'amuser à explorer et exploiter en utilisant le langage SQL.
+On peut maintenant s'amuser à explorer et exploiter cette base de données en utilisant le langage SQL.
 Le site [postgresqltutorial](http://www.postgresqltutorial.com/) contient justement 
 d'excellentes articles sur ce sujet.
 
