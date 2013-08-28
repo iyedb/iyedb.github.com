@@ -59,7 +59,7 @@ Dans la console psql, tapez:
 `select * from actor;` par exemple pour afficher la liste des acteurs.
 On peut maintenant s'amuser à explorer et exploiter cette base de données en utilisant le langage SQL.
 Le site [postgresqltutorial](http://www.postgresqltutorial.com/) contient justement 
-d'excellentes articles sur ce sujet.
+d'excellents articles sur ce sujet.
 
 Pour conclure, l'intérêt de cette base de données exemple est qu'elle 
 représente un exemple réel de cas d'utilisation et surtout qu'elle est préremplie.
