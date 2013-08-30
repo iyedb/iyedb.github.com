@@ -3,7 +3,8 @@ layout: post
 title: "Récupération d'une archive de base de données PostgreSQL"
 date: 2013-08-26 00:52:17
 categories: PostgreSQL
-keywords: PostgreSQL base de données SQL SGBD récupération archive
+description: PostgreSQL base de données SQL SGBD récupération archive
+keywords: PostgreSQL, base de données, SQL, SGBD, restauration, archive
 ---
 Dans ce billet, nous allons récuperer une archive ou une sauvegarde ("un dump")
 d'une base de données PostgreSQL.  
