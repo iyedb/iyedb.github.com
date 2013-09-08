@@ -67,7 +67,7 @@ représente un exemple réel de cas d'utilisation et surtout qu'elle est prérem
 Elle peut donc servir
 de terrain de jeux pour s'exercer à SQL mais aussi au développement d'applications 
 web. D'ailleurs, dans un prochain billet, nous utiliserons le framework 
-[Play](http://www.playframework.com) avec le langage [scala](http://www.scala-lang.org/) 
+[Play!](http://www.playframework.com) avec le langage [scala](http://www.scala-lang.org/) 
 pour se connectez à cette base de données.
 [archive]: http://www.postgresqltutorial.com/?wpdmact=process&did=MS5ob3RsaW5r
 
