@@ -68,7 +68,7 @@ is used to create the function paramater using the _move
 ctor_ of `std::ifstream` and not the copy ctor as it is now deleted. The move ctor actually takes 
 ownership of the resources held by the temporary. Moreover, we no longer need to declare 
 an `std::ifstream` object to open the file as a first step, then pass it by reference to our 
-function which feels awkward. Now the code feels more natural and straightforward: the function take a 
+function which feels awkward. Now the code feels more natural and straightforward: the function takes a 
 file then we just call it passing it a file argument.
 Of course you still can pass an l-value as argument to the function if 
 you absolutely have to, using the [std::move](http://en.cppreference.com/w/cpp/utility/move) 
