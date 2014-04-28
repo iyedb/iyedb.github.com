@@ -6,7 +6,7 @@ published: true
 categories: cpp11 en
 ---
 There is plenty of long, detailed articles online about C++11 r-value references,
-move semantic and move constructors so I wont bother you going into so much
+move semantic and move constructors so I won't bother you going into so much
 detail here. Instead I am going to discuss a simple example on how 
 useful this "new" C++11 feature is and how it helps in writing better, more 
 intuitive C++ code.
