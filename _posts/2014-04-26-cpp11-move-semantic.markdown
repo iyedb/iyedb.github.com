@@ -41,7 +41,7 @@ do_something_with_file(file);
 
 This call won't compile _(line 5)_ because we can't copy `std::ifstream` objects 
 (There is copy because we are passing the argument by value).
-The compiler will complain because the copy ctor of std::ifstream 
+The compiler will complain because the copy ctor of `std::ifstream` 
 is marked as private in old C++ and 
 is *implicitly deleted* as we will see later with C++11. And this is where the 
 move semantic of C++11 comes into play. Now we can define our function in this way:
