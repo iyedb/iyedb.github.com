@@ -39,7 +39,7 @@ std::ifstream file("/path/to/some/file");
 do_something_with_file(file);
 {% endhighlight %}
 
-This call won't compile _(line 5)_ because we can't copy `std::ifstream objects 
+This call won't compile _(line 5)_ because we can't copy `std::ifstream` objects 
 (There is copy because we are passing the argument by value).
 The compiler will complain because the copy ctor of std::ifstream 
 is marked as private in old C++ and 
@@ -57,7 +57,7 @@ void do_something_with_file (std::ifstream && file) {
 
 Notice the syntax used to declare the function parameter file: the *double &*.
 It means that the function takes a so called _r-value reference_. 
-Now the function is called this way:
+Now the function is called in this way:
 
 {% highlight c++ linenos %}
 do_something_with_file(std::ifstream("file.txt"));
@@ -79,7 +79,7 @@ std::ifstream file("/path/to/some/file");
 do_something_with_file(std::move(file));
 {% endhighlight %}
 
-But this defeats the point the post ;)
+But this defeats the point of the post ;)
 
 
 
