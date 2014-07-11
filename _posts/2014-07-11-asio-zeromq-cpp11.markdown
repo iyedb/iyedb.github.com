@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Integrating zeromq with boost::asio"
-keywords: c++11, network programming boost asio zeromq
+keywords: c++11 network programming boost asio zeromq
 published: true
 categories: cpp11 en
 ---
