@@ -110,4 +110,8 @@ rm -rf $(BUILD_DIRS) $(PROGRAM)
 -include $(CSRCS:%.c=$(DEPSDIR)/%.P)
 {% endhighlight %}
 
+I am not a make guru, so please post a comment if you have a suggestion or if you see something wrong
+with this Makefile.
+
+
 
