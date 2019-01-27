@@ -2,7 +2,7 @@
 layout: post
 title:  "C++11 move semantic simple example"
 keywords: c++11, move semantic, rvalue reference
-published: false
+published: true
 categories: cpp11 en
 ---
 There is plenty of long, detailed articles online about C++11 r-value references,
